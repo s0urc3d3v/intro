@@ -27,4 +27,5 @@ it does nothing
  ```
  follow me on [twitter](www.twitter.com/m3lbing)
  
- my [blog](www.techredesign.net)
+ 
+ My [blog](www.techredesign.net)
