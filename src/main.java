@@ -1,5 +1,23 @@
 /**
  * Created by s0urc3d3v3l0pm3nt on june 16 2015
+ */
+ /**
+  *  This file is part of intro.
+
+    intro is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    intro is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with intro.  If not, see <http://www.gnu.org/licenses/>.
+    */
+    
 public class main {
     public static void main(String[] args) //This boilerpate you need it but don't wory about the meaning
 
