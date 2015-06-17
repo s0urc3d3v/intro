@@ -19,11 +19,11 @@
     */
     
 public class main {
-    public static void main(String[] args) //This boilerpate you need it but don't wory about the meaning
+    public static void main(String[] args) //You need this boilerplate but don't worry about the meaning
 
     {
-        int x; //initizing a variable
-        int y = 100; //initiziling a variable and setting its vaule
+        int x; //initializing a variable
+        int y = 100; //initializing a variable and setting its value
         x = 5;
         //This last example is for assigning a value to a variable IF it has been initialized
 
@@ -37,15 +37,15 @@ public class main {
 
         String nS = "10";
         String qS = "15";
-        String sumS = nS + qS; //computor understand this as "djkfksqdkg" + "sdhksjgj" = "concatinated jiberrise"
-        //IF IT IS IN QUOTES THE COMPUTOR DOES NOT CARE ABOUT THE MEANING this can be good OR bad
+        String sumS = nS + qS; //computer understand this as "djkfksqdkg" + "sdhksjgj" = "concatenated jiberrise"
+        //IF IT IS IN QUOTES THE COMPUTER DOES NOT CARE ABOUT THE MEANING this can be good OR bad
 
         /**
          * keywords are words that are recognized by the compiler as having a specific meaning
          * These words are words like "int", "string", "double", "float"
-         * "new", "unsigned" etc... they can't be used as variable names
+         * "new", "unsigned" etc... can't be used as variable names
          *
-         * Now lets use some of them, you already have used int and have seen that it create a number variable without decimals
+         * Now lets use some of them, you already have used int and have seen that it will create a number variable without decimals.
          * Now we will see a double, this will create a number with decimals and that can be bigger
          *
          */
@@ -54,29 +54,29 @@ public class main {
         double h = 19201904;
 
         //It is important to note that becuase an int can not have a decimal it is DROPPED so 5.1 + 5.1 = 10 NOT 10.2
-        //It also does not round ints so 12.8 + 1.1 = 13 NOT 14 like it would do if it rounded
-        //doubles will drop at some point to but it is a lot bigger numbers and we don't need to worry about it right now
+        //It also does not round ints so 12.8 + 1.1 = 13 NOT 14 like it would do if it was rounded
+        //doubles will drop at some point to but only with a lot bigger numbers and we don't need to worry about it right now
 
-        //The next thing we will talk about is float's these are floating point numbers
+        //The next thing we will talk about is float's, these are floating point numbers
         float f = 10;
 
-        //Next lets look at loops
+        //Next lets take a look at loops
         /**
          * There are three major types of loops
          * While - run until a condition is false
          * for - run until a condition is false with an initilizer and an increment (a more robust and useful while loop)
          * do while  Runs once and then runs until the condition is false
          *
-         * You will use the for loop most
+         * You will use the for loop mostly
          *
-         * With a for loop you have an initilizer (a variable) a condition (a < 10) and a increment(a++)
-         * Here is the syntax in code for (initiliezer; condition; increment){code...}
+         * With a for loop you have an initializer (a variable) a condition (a < 10) and an increment (a++)
+         * Here is the syntax in code: for (initializer; condition; increment){code...}
          * Lets look at an example
          */
         int a = 5;
-        for (int b = 1/**inilizes the variable for incrementing*/; b < a /**condition*/; b++ /** increment, in this case adding one*/ )
+        for (int b = 1/**initializes the variable for incrementing*/; b < a /**condition*/; b++ /** increment, in this case adding one*/ )
         {
-            System.out.println(b); //this is just example code anything can be here
+            System.out.println(b); //this is just some example code, anything can be here
 
         }
         //when we talk about incrementing we are talking about the number that is used to control the loop's runs
@@ -96,18 +96,18 @@ public class main {
             //code here to be looped
         }
         /**
-         * This is what is known as an infinate loop it will run forever becuase there is never a time when 10 < 20
-         * Usally we will use a variable that will change to change the loop state for example say we have a loop that runs until the user
-         * enters stop we can loop whenerver the string is NOT stop when it is the loop will stop and therefore it is not an infinite loop
-         * Infinate loops are almost always bad
+         * This is what is known as an infinite loop it will run forever becuase there is never a time when 10 < 20
+         * Usually we will use a variable that will change to change the loop state. For example, let's say we have a loop that runs until the user
+         * enters stop. So we can loop whenever the string is NOT stop and when it is, the loop will stop and therefore it is not an infinite loop
+         * Infinite loops are almost always bad.
          */
 
         /**
-         * The last kind of loop is the do while which does somthing once and tehn will repeat it if the condition is true
+         * The last kind of loop is the do while which does somthing once and then will repeat it if the condition is true
          * do (condition){
          * //run once and then more if conditional is true
-         * }while (condition )
-         *This is like a while loop but it runs once even if the condition is false whereas a while loop does not
+         * }while (condition)
+         *This is like a while loop but it runs once even if the condition is false whereas a while loop does not/
          */
 
         int do1 = 20;
@@ -118,23 +118,23 @@ public class main {
 
         /**
          * Now lets talk about methods, some people will call these functions they are very similar but in java they are all
-         * methods c and other langauges have functions or both but java just has methods.
-         *Beware: a lot of people will say function when they mean method beucase it is more convntional but they know the differance you need to correct them
+         * methods. C and other languages have functions or both but java just has methods.
+         * Beware: a lot of people will say function when they mean method because it is more conventional but they know the difference. You don't need to correct them.
          *
-         * A function is a block of code that can be run multiple times in can have a return value ie what come out and input variables ie what goes in
+         * A function is a block of code that can be run multiple times and can have a return value, ie. what comes out and input variables, ie. what goes in.
          * it looks like this in java: public int findTheSum(int x, int y){//code return ...}
-         * The public part is a keyword that means that method can be run from any class in the program ampung other things
-         * but don't worry about that right now
-         * The int in the begining tells what type of value is going to come out of the fucntion, if nothing is coming
-         * out of the method you can say void ie public void method(){}
-         * the int x and int y are input values, meaning that they are variable that are only avaibale in that method and are refered
-         * to by the names given in the parenthesis here it is x and y.
-         * The reason for this is that it allows you to run the method multiple times with differnet values and have
-         * it still work
+         * The public part is a keyword that means that the method can be run from any class in the program among other things
+         * but don't worry about that right now.
+         * The int in the begining tells what type of value is going to come out of the function, if nothing is coming
+         * out of the method you can say void, ie. public void method(){}.
+         * the int x and int y are input values, meaning that they are variable that are only avaibale in that method and are referred
+         * to by the names given in the parenthesis, here it is x and y.
+         * The reason for this is that it allows you to run the method multiple times with different values and have
+         * it still work.
          *
-         * We can get the return value(what is coming out) with a variable of the same type in our case we have public INT
-         * findTheSum(int x, int y) so we would need to set the call equal to int
-         * lets say we need to multiply two numbers alot, here is an example
+         * We can get the return value (what is coming out) with a variable of the same type in our case we have public INT
+         * findTheSum(int x, int y) so we would need to set the call equally to int.
+         * Lets say we need to multiply two numbers alot, here is an example:
          */
         public int multiply(int x, int y) {
         return x * y;
@@ -145,12 +145,12 @@ public class main {
     /**
      * Now lets talk about classes and object briefly so that you can use methods
      * Methods must be called from what is called an object.  This is a class and can be created by
-     * using the new class button in your ide and naming it something; say: myClass
+     * using the new class button in your IDE and naming it something; say: myClass
      * in that class you would create the method and then in ANOTHER class
-     * you can run your method by creating an instance of the class
-     * We can do this with the new keyword
+     * you can run your method by creating an instance of the class.
+     * We can do this with the new keyword:
      * nameOfClass identifier = new nameOfClass();
-     * so in our case we would say myClass object1 = new myClass();
+     * So in our case we would say myClass object1 = new myClass();
      * Now we can call the method from that object becuase it is in that class by saying the identifier and then
      *
      * dot the method name, so
