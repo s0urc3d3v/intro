@@ -8,7 +8,7 @@ You can use the gist for a walkthrought or just jump right into the code [here](
 The code is hevily marked up with comments to help you along and is designed as a referance not to actually be used as
 it does nothing
 
-
+```
  This file is part of intro.
 
     intro is free software: you can redistribute it and/or modify
@@ -23,3 +23,4 @@ it does nothing
 
     You should have received a copy of the GNU General Public License
     along with intro.  If not, see <http://www.gnu.org/licenses/>.
+ ```
