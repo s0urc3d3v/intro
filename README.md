@@ -4,7 +4,7 @@ to program the number of resources was large but there where alot of basic conce
 on the internet.  I have tried to help those of you who need a good starting place with both example code and a long explaination
 I hope that this is informative and helps you get off the ground quickly.  Enjoy!
 ##For referances
-You can use the gist for a walkthrought or just jump right into the code [here](https://github.com/s0urc3d3v3l0pm3nt/intro/blob/master/src/main.java)
+You can use the [gist](https://gist.github.com/s0urc3d3v3l0pm3nt/97ad3080eaec8fa2f1bd) for a walkthrought or just jump right into the code [here](https://github.com/s0urc3d3v3l0pm3nt/intro/blob/master/src/main.java)
 
 The code is hevily marked up with comments to help you along and is designed as a referance not to actually be used as
 it does nothing
@@ -29,3 +29,6 @@ it does nothing
  
  
  My [blog](www.techredesign.net)
+ 
+ [gist](https://gist.github.com/s0urc3d3v3l0pm3nt/97ad3080eaec8fa2f1bd)
+ 
