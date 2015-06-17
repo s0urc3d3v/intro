@@ -5,6 +5,7 @@ on the internet.  I have tried to help those of you who need a good starting pla
 I hope that this is informative and helps you get off the ground quickly.  Enjoy!
 ##For referances
 You can use the gist for a walkthrought or just jump right into the code [here](https://github.com/s0urc3d3v3l0pm3nt/intro/blob/master/src/main.java)
+
 The code is hevily marked up with comments to help you along and is designed as a referance not to actually be used as
 it does nothing
 
@@ -24,3 +25,5 @@ it does nothing
     You should have received a copy of the GNU General Public License
     along with intro.  If not, see <http://www.gnu.org/licenses/>.
  ```
+ follow me on [twitter](www.twitter.com/m3lbing)
+ my [blog](www.techredesign.net)
