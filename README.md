@@ -1,13 +1,13 @@
-# intro
-This is a guide that I have created that is designed to help along those who need help begining with java.  When I learned
-to program the number of resources was large but there where alot of basic concepts that I missed teaching myself to program
-on the internet.  I have tried to help those of you who need a good starting place with both example code and a long explaination
+# Intro
+This is a guide that I have created that is designed to help along those who need help beginning with java.  When I learned
+to program the number of resources was large but there where a lot of basic concepts that I missed teaching myself to program
+on the internet.  I have tried to help those of you who need a good starting place with both example code and a long explanation.
 I hope that this is informative and helps you get off the ground quickly.  Enjoy!
-##For referances
-You can use the [gist](https://gist.github.com/s0urc3d3v3l0pm3nt/97ad3080eaec8fa2f1bd) for a walkthrought or just jump right into the code [here](https://github.com/s0urc3d3v3l0pm3nt/intro/blob/master/src/main.java)
+##For references
+You can use the [gist](https://gist.github.com/s0urc3d3v3l0pm3nt/97ad3080eaec8fa2f1bd) for a walkthrough or just jump right into the code [here](https://github.com/s0urc3d3v3l0pm3nt/intro/blob/master/src/main.java).
 
-The code is hevily marked up with comments to help you along and is designed as a referance not to actually be used as
-it does nothing
+The code is heavily marked up with comments to help you along and is designed as a reference not to actually be used as
+it does nothing.
 
 ```
  This file is part of intro.
@@ -28,7 +28,7 @@ it does nothing
  follow me on [twitter](www.twitter.com/m3lbing)
  
  
- My [blog](www.techredesign.net)
+ My [blog](http://www.techredesign.net)
  
  [gist](https://gist.github.com/s0urc3d3v3l0pm3nt/97ad3080eaec8fa2f1bd)
  
